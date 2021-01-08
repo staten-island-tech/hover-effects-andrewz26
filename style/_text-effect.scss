@@ -1,0 +1,14 @@
+@import "./variables";
+.text-effect {
+  background-image: url("../media/space.jpg");
+  background-position: center;
+  color: lime;
+  background-clip: text;
+  font-size: 8rem;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  transform: skewY(-10deg);
+  letter-spacing: 5rem;
+}
